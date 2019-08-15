@@ -34,3 +34,6 @@ def dozens(v, &block)
   end
   dozensArr
 end
+
+dozens(4, {|n| n * 12})
+
